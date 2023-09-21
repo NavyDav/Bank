@@ -1,10 +1,116 @@
-.App {
-  text-align: center;
+*{
+  margin: 0% auto;
+}
+.incriptionContent1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inscriptionContent1 h1{
+  font-size: 70px;
+  color: chartreuse;
+  border: black;
+  text-emphasis-color: black;
+  text-shadow: 0px 4px 10px black;
+}
+
+.inscriptionContent2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0vh auto;
+  width: 100vw;
+  height: auto;
+}
+
+.inscriptionContent2 p, a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    margin: -20vh auto;
+    text-shadow: 0px 4px 10px black;
+}
+
+form {
+  border-radius: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh auto;
+  background-color: rgb(0 0 0 / 55%);
+  padding: 5vw;
+  color: tan;
+  width: 65vw;
+  border: solid #4c8b28b5;
+  text-align: center;
+  box-shadow: 0px 15px 20px #4c8b28b5;
+}
+
+input, select, textarea, button{
+  color: #a0e17c;
+  background-color: #1f1f1f;
+  margin: 1vh auto;
+  display: flex;
+  border-color: #a4e8ad !important;
+}
+
+.inscriptionContent1 img{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+}
+
+.registration-form{
+  width: auto;
+    height: 100vh;
+    
+}
+
+.connexionContent1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+
+.connexionContent1 img{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+}
+.connexionContent1 h1{
+  font-size: 70px;
+  color: chartreuse;
+  border: black;
+  text-emphasis-color: black;
+  text-shadow: 0px 4px 10px black;
+}
+
+.connexionContent2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0vh auto;
+  width: 100vw;
+  height: auto;
+}
+
+.connexionContent2 p, a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    margin: -20vh auto;
+    text-shadow: 0px 4px 10px black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,26 +119,4 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
