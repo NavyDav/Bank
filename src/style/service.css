@@ -1,0 +1,203 @@
+.service{
+    color: rgb(2, 16, 95);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.534);
+}
+
+.page{
+    height: 960px;
+    background: url('../../asset/pexels-photo-4482900.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grand{
+    flex-direction: column;
+    display: block;
+
+}
+
+.moyen{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:20px;
+    box-shadow: 0px 10px 20x black; 
+}
+
+.moyen a{
+    padding: 50px;
+    color: rgb(197, 197, 40);
+    background-color: #0b2d36;
+    margin: 5px;
+    border-radius: 20%;
+    text-decoration: none;
+}
+
+.essentiel h1{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: #850c60;
+}
+
+
+.invgrand{
+    flex-direction: column;
+    display: block;
+
+}
+
+.invmoyen{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.invmoyen a{
+    padding: 50px;
+    color: rgb(0, 255, 76);
+    background-color: #2f14a8;
+    margin: 5px;
+    border-radius: 20%;
+    text-decoration: none;
+}
+
+.investissements h1{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+
+.modgrand{
+    flex-direction: column;
+    display: block;
+
+}
+
+.modmoyen{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modmoyen a{
+    padding: 50px;
+    color: rgb(72, 255, 0);
+    background-color: #850c60;
+    margin: 5px;
+    border-radius: 20%;
+    text-decoration: none;
+}
+
+.modedevie h1{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+a{
+    width: 80%;
+    height: 9vh;
+}
+
+@media (max-width: 390px){
+
+    .grand{
+        flex-direction: column;
+        display: block;
+    
+    }
+
+    .moyen a{
+        padding: 30px;
+        color: yellow;
+        background-color: #0b2d36;
+        margin: 5px;
+        border-radius: 20%;
+        text-decoration: none;
+    }
+
+    .modmoyen a{
+        padding: 30px;
+        color: rgb(72, 255, 0);
+        background-color: #850c60;
+        margin: 5px;
+        border-radius: 20%;
+        text-decoration: none;
+    }
+
+    .invmoyen a{
+        padding: 30px;
+        color: rgb(0, 255, 76);
+        background-color: #2f14a8;
+        margin: 5px;
+        border-radius: 20%;
+        text-decoration: none;
+    }
+
+    .modmoyen{
+        display: flex;
+        width: 90%;
+        height: 80%;
+        margin: 50px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    
+.invmoyen{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.moyen{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:20px;
+    box-shadow: 0px 10px 20x black; 
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+.page{
+    background-color: rgb(79, 199, 79);
+    width: 100%;
+    background: none;
+}
+
+    
+}
+    
