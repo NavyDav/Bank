@@ -1,2 +1,2 @@
-# 667-Bank
+# Bank
 Bank
